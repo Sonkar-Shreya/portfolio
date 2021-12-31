@@ -1,13 +1,48 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* fonts */
+/* freerica the great -> sketchted text */
+@font-face {
+  font-family: "FrederickatheGreat";
+  src: local("FrederickatheGreat"),
+    url("./assets/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf")
+      format("truetype");
+}
+
+/* dancing script -> cursive */
+@font-face {
+  font-family: "DancingScript";
+  src: local("DancingScript"),
+    url("./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf")
+      format("truetype");
+}
+
+/* play fair -> mst sa hai */
+@font-face {
+  font-family: "PlayFair";
+  src: local("PlayFair"),
+    url("./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf")
+      format("truetype");
+}
+
+/* play fair -> mst sa italic hai */
+@font-face {
+  font-family: "PlayFairItalic";
+  src: local("PlayFairItalic"),
+    url("./assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url("./assets/fonts/Roboto/Roboto-Regular.ttf")
+      format("truetype");
 }
