@@ -8,7 +8,7 @@ const NameSection = () => {
 	const singleLineClass = 'flex my-1';
 
 	return (
-		<div className = 'flex justify-center flex-col h-full px-16 bg-gray-700'>
+		<div className = 'flex justify-center flex-col h-full px-16 bg-white'>
 			<div className  = {singleLineClass}>
 				<LargeChar char = 'H' />
 				<LargeChar char = 'i' />
@@ -55,7 +55,7 @@ const NameSection = () => {
 				<LargeChar char = 'r'/>
 			</div>
 
-			<div className = ' text-gray-200 py-5 text-xl font-PlayFair'>
+			<div className = 'text-gray-500 py-5 text-xl font-PlayFair'>
 				<span> Full-Stack Engineer </span>
 				<i className = "text-sm text-yellow-500">&#10038;</i>
 				<span> Competitive Programmer </span>
