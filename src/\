@@ -1,0 +1,11 @@
+import React from 'react'
+
+const LargeChar = ({char = ''}) => {
+	return (
+		<div className = 'text-8xl font-Roboto'>
+			{char}
+		</div>
+	)
+}
+
+export default LargeChar;

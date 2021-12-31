@@ -1,15 +1,21 @@
 import React from 'react'
 import {
   FullScreen,
-  SnapElement
+  SnapElement,
+  ContactSection,
+  NameSection,
+  ProjectSection,
+  TechStackSection,
+  Footer,
 } from '../components'
 
 const Landing = () => {
   return (
     <FullScreen>
-      <SnapElement> this is first snap </SnapElement>
-      <SnapElement> this is second snap </SnapElement>
-      <SnapElement> this is third snap </SnapElement>
+      <SnapElement> <NameSection /> </SnapElement>
+      <SnapElement> <TechStackSection /> </SnapElement>
+      <SnapElement> <ProjectSection /> </SnapElement>
+      <SnapElement> <ContactSection /> </SnapElement>
     </FullScreen>
   )
 }

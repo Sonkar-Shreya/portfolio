@@ -1,16 +1,16 @@
-// import React from 'react'
-// const CustomButton = ({
-// 	color = 'pink',
-// 	isLogin = false,
-// 	text = 'text'
-// }) => {
-// 	const result = `bg-${color}-300 text-${color}-600 px-4 py-1 rounded ease-in-out duration-300 mx-1 shadow-lg shadow-${color}-500/20 hover:shadow-${color}-500/40 ${isLogin ? ' hover:bg-pink-400 hover:text-pink-100 mr-5' : ''} `
-	
-// 	return (
-// 		<div className={result}>
-// 			{text}
-// 		</div>
-// 	)
-// }
+import React from 'react'
+const CustomButton = ({
+	color = 'pink',
+	text = 'text'
+}) => {
 
-// export default CustomButton
+	// shadow-lg shadow-green-500/20 hover:shadow-green-500/40 hover:bg-green-500 hover:text-green-100
+	const result = 'text-lg px-3 py-2 cursor-pointer text-center shadow-lg shadow-gray-300/20 bg-gray-100 text-gray-400 bg-white border border-gray-200 hover:shadow-yellow-700/40 hover:bg-yellow-400 hover:text-gray-700 easeInOut duration-300 hover:border-yellow-400'
+
+	return (
+		<div className={result}>
+			{text}
+		</div>
+	)
+}
+export default CustomButton

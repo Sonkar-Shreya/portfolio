@@ -2,7 +2,7 @@ import React from 'react'
 
 const FullScreen = (props) => {
 	return (
-		<div className = 'h-screen snap-y overflow-y-scroll snap-proximity'>
+		<div className = 'h-screen snap-y snap-proximity overflow-y-scroll'>
 			{props.children}
 		</div>
 	)
