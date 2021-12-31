@@ -9,4 +9,5 @@
 // export { default as Label } from './common/Label'
 // export { default as Navbar } from './common/Navbar'
 // export { default as ProgressBar } from './common/ProgressBar'
-// export { default as TeacherCard } from './common/TeacherCard'
+export { default as FullScreen } from './landing/FullScreen'
+export { default as SnapElement } from './landing/SnapElement'

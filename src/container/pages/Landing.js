@@ -1,10 +1,16 @@
 import React from 'react'
+import {
+  FullScreen,
+  SnapElement
+} from '../components'
 
 const Landing = () => {
   return (
-    <div className = 'w-screen h-screen bg-red-400'>
-      This is landing page
-    </div>
+    <FullScreen>
+      <SnapElement> this is first snap </SnapElement>
+      <SnapElement> this is second snap </SnapElement>
+      <SnapElement> this is third snap </SnapElement>
+    </FullScreen>
   )
 }
 
