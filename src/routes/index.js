@@ -6,14 +6,13 @@ import {
 } from "react-router-dom";
 import endpoints from '../utils/API/endpoints';
 
-import Wrapped from './wrapped'
+import Landing from '../container/pages/Landing'
 
 function PageRoutes() {
   return (
     <Router>
       <Routes>
-        {/* <Route path={endpoints.slash + endpoints.login} element={<Login />} /> */}
-        {/* <Route path='*' element={<Wrapped />} /> */}
+        <Route path={endpoints.slash} element={<Landing />} />
       </Routes>
     </Router>
   )

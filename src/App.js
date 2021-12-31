@@ -1,10 +1,11 @@
 import React from 'react';
+import PageRoutes from './routes'
 import './App.css'
 
 function App() {
   return (
-    <div className="App font-FredericatheGreat">
-      this is working
+    <div className=''>
+      <PageRoutes />
     </div>
   );
 }
