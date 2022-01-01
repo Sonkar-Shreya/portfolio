@@ -1,6 +1,9 @@
-// import solved from '../assets/images/solved.png'
-// export default {
-  // solved,
-// }
-
-// export { default as name } from './path'
+export { default as Aare } from '../assets/images/Aare.svg';
+export { default as Hinterrhein } from '../assets/images/Hinterrhein.svg'
+export { default as Mataura } from '../assets/images/Mataura.svg'
+export { default as Oreti } from '../assets/images/Oreti.svg'
+export { default as Rangitikei } from '../assets/images/Rangitikei.svg'
+export { default as Taieri } from '../assets/images/Taieri.svg'
+export { default as Waiau } from '../assets/images/Waiau.svg'
+export { default as Waihou } from '../assets/images/Waihou.svg'
+export { default as Waimakariri } from '../assets/images/Waimakariri.svg'
