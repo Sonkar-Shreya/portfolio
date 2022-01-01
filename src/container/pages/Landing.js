@@ -12,10 +12,10 @@ import {
 const Landing = () => {
   return (
     <FullScreen>
-      <SnapElement> <NameSection /> </SnapElement>
-      <SnapElement> <TechStackSection /> </SnapElement>
-      <SnapElement> <ProjectSection /> </SnapElement>
-      <SnapElement> <ContactSection /> </SnapElement>
+      <SnapElement id='nameSection' > <NameSection /> </SnapElement>
+      <SnapElement id='techStackSection' > <TechStackSection /> </SnapElement>
+      <SnapElement id='projectSection' > <ProjectSection /> </SnapElement>
+      <SnapElement id='contactSection' > <ContactSection /> </SnapElement>
     </FullScreen>
   )
 }

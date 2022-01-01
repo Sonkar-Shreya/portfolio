@@ -1,3 +1,23 @@
+import React from 'react'
+const Navbar = () => {
+	return (
+		<div className = "absolute top-5 right-5">
+			<div>Home</div>
+			<div>Skills</div>
+			<div>Projects</div>
+			<div>Contact Me</div>
+			<div>Resume</div>
+		</div>
+	)
+}
+
+export default Navbar;
+
+
+
+
+
+
 // import { Menu, Transition } from '@headlessui/react'
 // import React, { Fragment, useEffect, useRef, useState } from 'react'
 // import { Link, useNavigate } from 'react-router-dom'
