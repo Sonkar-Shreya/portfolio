@@ -1,1 +1,6 @@
 @import url('./assets/fonts/style.css');
+
+.active {
+  color: yellow !important;
+}
+

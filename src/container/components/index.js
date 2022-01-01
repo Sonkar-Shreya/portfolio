@@ -12,7 +12,7 @@ export { default as Footer } from './common/Footer'
 export { default as LargeChar } from './common/LargeChar'
 export { default as CustomButton } from './common/CustomButton'
 export { default as Navbar } from './common/Navbar'
-
+export { default as NavButton } from './common/NavButton'
 
 // landing page
 export { default as FullScreen } from './landing/FullScreen'

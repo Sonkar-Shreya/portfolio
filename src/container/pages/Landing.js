@@ -7,15 +7,17 @@ import {
   ProjectSection,
   TechStackSection,
   Footer,
+  Navbar
 } from '../components'
 
 const Landing = () => {
   return (
     <FullScreen>
-      <SnapElement id='nameSection' > <NameSection /> </SnapElement>
-      <SnapElement id='techStackSection' > <TechStackSection /> </SnapElement>
-      <SnapElement id='projectSection' > <ProjectSection /> </SnapElement>
-      <SnapElement id='contactSection' > <ContactSection /> </SnapElement>
+      <Navbar />
+      <SnapElement id='home' > <NameSection /> </SnapElement>
+      <SnapElement id='skills' > <TechStackSection /> </SnapElement>
+      <SnapElement id='projects' > <ProjectSection /> </SnapElement>
+      <SnapElement id='contact' > <ContactSection /> </SnapElement>
     </FullScreen>
   )
 }

@@ -11,7 +11,6 @@ import Landing from '../container/pages/Landing'
 function PageRoutes() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path={endpoints.slash} element={<Landing />} />
       </Routes>
