@@ -2,8 +2,10 @@ import React from 'react'
 
 const TechStackSection = () => {
 	return (
-		<div>
-			This contains my tech stack
+		<div className = 'flex justify-around'>
+			<div className = ''>
+
+			</div>
 		</div>
 	)
 }

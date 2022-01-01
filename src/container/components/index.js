@@ -21,4 +21,4 @@ export { default as ContactSection } from './landing/ContactSection'
 export { default as NameSection } from './landing/NameSection'
 export { default as ProjectSection } from './landing/ProjectSection'
 export { default as TechStackSection } from './landing/TechStackSection'
-
+export { default as Image } from './landing/Image'
