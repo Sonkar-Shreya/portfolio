@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-const className = 'text-pink-500 block my-3 hover:text-yellow-500 active:text-yellow-600'
+const className = 'py-1 text-gray-700 block font-Juana hover:text-purple-500 hover:tracking-wider active:text-purple-600 easeInOut duration-300 hoverable'
 
 const NavButton = forwardRef(({href, text}, ref) => (
 	<a ref = {ref} href = {'/'+href} className = {className} > {text} </a>

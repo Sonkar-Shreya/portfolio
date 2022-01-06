@@ -1,22 +1,17 @@
-import React from 'react'
+import React, { createRef } from 'react'
 import {
 	LargeChar,
 	CustomButton,
-	Image
+	FullStop,
+	Image,
+	NavButton,
 } from '../'
-import {
-	Oreti,
-	Taieri,
-	Waiau,
-	Waihou,
-	Waimakariri
-} from '../../../constants/images'
+
 const NameSection = () => {
-	const singleLineClass = 'flex my-1';
+	const singleLineClass = 'flex my-1 items-end ';
 
 	return (
 		<div className = 'flex justify-center flex-col h-full px-20 relative overflow-hidden' style ={{backgroundColor: '#fff'}}>
-			<Image img={Waiau} />
 			<div className  = {singleLineClass}>
 				<LargeChar char = 'H' />
 				<LargeChar char = 'i' />
@@ -61,16 +56,17 @@ const NameSection = () => {
 				<LargeChar char = 'e'/>
 				<LargeChar char = 'e'/>
 				<LargeChar char = 'r'/>
+				<FullStop classes=' mb-3' size={2} />
 			</div>
 
-			<div className = 'text-gray-500 py-5 text-xl font-PlayFair z-10'>
-				<span> Full-Stack Engineer </span>
-				<i className = "text-sm text-yellow-500">&#10038;</i>
+			<div className = 'text-gray-800 py-5 text-xl font-Juana z-10 hoverable cursor-pointer'>
+				<span> Full Stack Engineer </span>
+				<span>&#127911;</span>
 				<span> Competitive Programmer </span>
 			</div>
 
-			<div className = 'w-48 my-8 z-10'>
-				<CustomButton text = 'Contact Me' />
+			<div className = 'w-24 my-8 z-10'>
+				<NavButton text='Contact Me' href='#contact' ref={createRef() } />
 			</div>
 		</div>
 	)

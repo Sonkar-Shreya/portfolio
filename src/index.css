@@ -50,3 +50,17 @@ body {
   url("./assets/fonts/Roboto/Roboto-Regular.ttf")
   format("truetype");
 }
+
+@font-face {
+  font-family: 'Juana';
+  src: local("Juana"),
+  url("./assets/fonts/juana/juanaalt-light.ttf")
+  format("truetype");
+}
+
+@font-face {
+  font-family: 'Coldiac';
+  src: local("Coldiac"),
+  url("./assets/fonts/Coldiac/Coldiac.ttf")
+  format("truetype");
+}
