@@ -24,7 +24,12 @@ export { default as ContactSection } from './landing/ContactSection'
 export { default as NameSection } from './landing/NameSection'
 export { default as ProjectSection } from './landing/ProjectSection'
 export { default as TechStackSection } from './landing/TechStackSection'
+export { default as WhatElse } from './landing/WhatElse'
 
 // about me
 export { default as AboutMe } from './techStack/AboutMe'
 export { default as Technologies } from './techStack/Technologies'
+
+// projets
+export { default as Carousel } from './projects/Carousel'
+export { default as CarouselItem } from './projects/CarouselItem'
