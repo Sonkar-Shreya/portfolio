@@ -12,7 +12,6 @@ const WhatElse = () => {
         codeforces: 'https://codeforces.com/profile/yuvanastra',
         spoj: '',
         atcoder: 'https://atcoder.jp/users/algomonk016',
-        spoj: '',
         fastfinger: 'https://10fastfingers.com/user/2707320/',
         typeracer: 'https://data.typeracer.com/pit/profile?user=yuvanastra',
     }

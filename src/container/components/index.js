@@ -1,5 +1,4 @@
 // export { default as BannerCarousel } from './common/BannerCarousel'
-// export { default as ButtonMailTo } from './common/ButtonMailTo'
 // export { default as Carousel } from './common/Carousel'
 // export { default as Count } from './common/Count'
 // export { default as DropdownMenu } from './common/DropdownMenu'
@@ -16,6 +15,7 @@ export { default as SideNavbar } from './common/SideNavbar'
 export { default as NavButton } from './common/NavButton'
 export { default as FullStop } from './common/FullStop'
 export { default as Image } from './common/Image'
+export { default as ButtonMailTo } from './common/ButtonMailTo'
 
 // landing page
 export { default as FullScreen } from './landing/FullScreen'
