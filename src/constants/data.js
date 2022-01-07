@@ -7,12 +7,12 @@ const technologies = {
         { 
             title: 'React', 
             icon: TechIcons.ReactNativeIcon,
-            hoverShadow: 'blue'
+            hoverShadow: 'sky'
         },
         { 
             title: 'React Native', 
             icon: TechIcons.ReactNativeIcon,
-            hoverShadow: 'blue'
+            hoverShadow: 'sky'
         },
         { 
             title: '', 
@@ -22,14 +22,14 @@ const technologies = {
         { 
             title: 'Jquery', 
             icon: TechIcons.JqueryIcon,
-            hoverShadow: 'blue'
+            hoverShadow: 'sky'
         }
     ],
     Backend: [
         { 
             title: '', 
             icon: TechIcons.MySQLIcon,
-            hoverShadow: 'blue'
+            hoverShadow: 'sky'
         },
         { 
             title: 'MongoDB', 
@@ -39,7 +39,7 @@ const technologies = {
         { 
             title: 'Firebase', 
             icon: TechIcons.FirebaseIcon,
-            hoverShadow: ''
+            hoverShadow: 'yellow'
         }
     ],
     Styling: [
@@ -47,39 +47,39 @@ const technologies = {
         { 
             title: 'TailwindCSS', 
             icon: TechIcons.TailwindCssIcon,
-            hoverShadow: 'blue'
+            hoverShadow: 'sky'
         },
         { 
             title: 'Bootstrap', 
             icon: TechIcons.BootstrapIcon,
-            hoverShadow: 'violet'
+            hoverShadow: 'purple'
         },
         { 
             title: 'MaterialUI', 
             icon: TechIcons.MaterialUIIcon,
-            hoverShadow: 'blue'
+            hoverShadow: 'sky'
         },
         { 
             title: 'ReactStrap', 
             icon: TechIcons.ReactStrapIcon,
-            hoverShadow: 'violet'
+            hoverShadow: 'purple'
         }
     ],
     Others: [
         { 
             title: 'Git & Github', 
             icon: TechIcons.GitIcon,
-            hoverShadow: 'violet'
+            hoverShadow: 'purple'
         },
         { 
             title: 'Herkou', 
             icon: TechIcons.HerokuIcon,
-            hoverShadow: 'violet'
+            hoverShadow: 'purple'
         },
         { 
             title: 'Gitlab', 
             icon: TechIcons.GitLabIcon,
-            hoverShadow: ''
+            hoverShadow: 'red'
         }
     ]
 }

@@ -10,7 +10,7 @@ const Technologies = ({ technologies = {} }) => {
                         <div className="flex">
                             {
                                 technologies[key].map(tech => (
-                                    <div key={tech.title} className={`flex m-2 justify-center items-center shadow py-1 px-3 rounded cursor-pointer h-12 hover:shadow-lg hover:shadow-${tech.hoverShadow}-300 easeInOut duration-300`}>
+                                    <div key={tech.title} className={'flex m-2 justify-center items-center shadow py-1 px-3 rounded cursor-pointer h-12 hover:shadow-lg easeInOut duration-300 hover:shadow-' + tech.hoverShadow + '-300'}>
                                         <tech.icon />
                                         <span className="mx-1">{tech.title}</span>
                                     </div>
