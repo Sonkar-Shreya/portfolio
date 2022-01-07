@@ -1,30 +1,16 @@
 import React from 'react'
-import {
-	Developer,
-	DeveloperCropped
-} from '../../../constants/images'
+import { DeveloperCropped } from '../../../constants/images'
+import { data } from '../../../constants'
 import {
 	Image,
-	AboutMe,
 	Technologies,
 } from '../../components'
 
-import {
-	TechIcons
-} from '../../../constants/icons'
-
-import {
-	data
-} from '../../../constants'
-
 const TechStackSection = () => {
-	
 	return (
-		<div className='flex justify-around  relative h-full'>
+		<div className='flex justify-around relative h-full'>
 			<div className='w-1/2 p-16 font-PlayFair flex items-center'>
-				{/* <AboutMe /> */} 
 				<Technologies technologies={data} />
-
 			</div>
 			<div className='w-1/2'>
 				<Image img={DeveloperCropped} />
