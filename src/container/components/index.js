@@ -15,6 +15,7 @@ export { default as Navbar } from './common/Navbar'
 export { default as SideNavbar } from './common/SideNavbar'
 export { default as NavButton } from './common/NavButton'
 export { default as FullStop } from './common/FullStop'
+export { default as Image } from './common/Image'
 
 // landing page
 export { default as FullScreen } from './landing/FullScreen'
@@ -23,4 +24,7 @@ export { default as ContactSection } from './landing/ContactSection'
 export { default as NameSection } from './landing/NameSection'
 export { default as ProjectSection } from './landing/ProjectSection'
 export { default as TechStackSection } from './landing/TechStackSection'
-export { default as Image } from './landing/Image'
+
+// about me
+export { default as AboutMe } from './techStack/AboutMe'
+export { default as Technologies } from './techStack/Technologies'
