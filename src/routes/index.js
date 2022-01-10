@@ -5,14 +5,17 @@ import {
   Route
 } from "react-router-dom";
 import endpoints from '../utils/API/endpoints';
-import { Navbar } from '../container/components'
-import Landing from '../container/pages/Landing'
+import {
+  Landing,
+  Project
+} from '../container/pages'
 
 function PageRoutes() {
   return (
     <Router>
       <Routes>
         <Route path={endpoints.slash} element={<Landing />} />
+        <Route path={endpoints.project} element={<Project />} />
       </Routes>
     </Router>
   )
