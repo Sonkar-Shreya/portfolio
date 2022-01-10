@@ -12,3 +12,8 @@ export { default as DeveloperCropped } from '../assets/images/developerCropped.j
 export { default as Typing } from '../assets/images/typing.gif'
 export { default as BlueBoyTyping } from '../assets/images/typing_nothought.gif'
 export { default as Coding } from '../assets/images/coding.gif'
+export { default as IshareTable } from '../assets/images/ishare+table.jpg'
+export { default as HiiPink } from '../assets/images/hiiPink.jpg'
+export { default as HiiTable } from '../assets/images/hiiTable.jpg'
+export { default as HiiSpecs } from '../assets/images/hiiSpecs.jpg'
+export { default as EnhancedHii } from '../assets/images/enhancedHii.jpg'
