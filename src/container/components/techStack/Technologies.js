@@ -9,12 +9,16 @@ const Technologies = ({ technologies = {} }) => {
                         <div className="text-lg my-3"> {key} </div>
                         <div className="flex">
                             {
-                                technologies[key].map(tech => (
-                                    <div key={tech.title} className={'flex m-2 justify-center items-center shadow py-1 px-3 rounded cursor-pointer h-12 hover:shadow-lg easeInOut duration-300 hover:shadow-' + tech.hoverShadow + '-300'}>
-                                        <tech.icon />
-                                        <span className="mx-1">{tech.title}</span>
-                                    </div>
-                                ))
+                                technologies[key].map(tech => {
+                                    const hoverStyle = `hover:shadow-${tech.hoverShadow}-300 hover:shadow-lg`
+                                    const normalStyle = 'flex m-2 justify-center items-center shadow py-1 px-3 rounded-lg cursor-pointer h-12 easeInOut duration-300 '
+                                    return (
+                                        <div key={tech.title} className={`${normalStyle} ${hoverStyle}`}>
+                                            <tech.icon />
+                                            <span className="mx-1">{tech.title}</span>
+                                        </div>
+                                    )
+                                })
                             }
                         </div>
                     </div>

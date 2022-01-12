@@ -33,3 +33,8 @@ export { default as Technologies } from './techStack/Technologies'
 // projets
 export { default as Carousel } from './projects/Carousel'
 export { default as CarouselItem } from './projects/CarouselItem'
+export { default as DescriptionPage } from './projects/DescriptionPage'
+export { default as Snapshots } from './projects/Snapshots'
+export { default as Team } from './projects/Team'
+export { default as TeamCarousel } from './projects/TeamCarousel'
+export { default as TeamCarouselItem } from './projects/TeamCarouselItem'

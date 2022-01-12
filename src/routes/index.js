@@ -15,7 +15,7 @@ function PageRoutes() {
     <Router>
       <Routes>
         <Route path={endpoints.slash} element={<Landing />} />
-        <Route path={endpoints.project} element={<Project />} />
+        <Route path={endpoints.project+'/:project'} element={<Project />} />
       </Routes>
     </Router>
   )
