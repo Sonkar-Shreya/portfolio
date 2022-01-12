@@ -6,7 +6,11 @@ const endpoints = {
     profile: 'profile',
     register: 'register',
     stats: 'stats',
-    notice: 'notice'
+    notice: 'notice',
+    projects: {
+        kishori: 'kishori',
+        parijana: 'parijana'
+    }
 }
 
 export default endpoints
