@@ -88,8 +88,9 @@ const projects = {
     kishori: {
         about: 'Pratham, Prabal, Sarvada',
         appType: 'Web & Mobile App',
+        description:"Kishori is an app build for females for their good health and well-being. Using this app they can raise physical as well as mental health related issues and directly contact any doctor for their issue. More than this, Kishori app is a one-stop shop for women of all ages to discover resources, guidance, information, and support through each stage in life.",
         title: 'Kishori',
-        techUsed: ['Java', 'React', 'React Native', 'Firebase'],
+        techUsed: ['Java', 'React', 'React Native', 'Redux', 'Firebase'],
         image: {
             banner: '',
             snapshots: [
@@ -102,7 +103,7 @@ const projects = {
         },
         links: {
             github: '',
-            live: '',
+            live: 'https://kishori-b1410.web.app/',
             playstore: '',
             ios: '',
         },
@@ -195,7 +196,7 @@ const projects = {
         appType: 'Web & Mobile App',
         description:"Parijana-Papers is a website that contains previous year papers of Chhatrapati Shahu Ji Maharaj University, Kanpur. Due to lockdown period, the interaction between the college-mates has reduced to a large extinct due to which sharing of important notes and previous year papers has also reduced. Most of the studen don't get the papers. So to resolve that problem, this website is developed. It contains all the previous year papers for the students so that they can easily get those papers.",
         title: 'Parijana Papers',
-        techUsed: ['React', 'React Native', 'NodeJs + ExpressJS', 'MySQL'],
+        techUsed: ['React', 'React Native', 'Redux', 'NodeJs + ExpressJS', 'MySQL'],
         image: {
             banner: '',
             snapshots: [
@@ -207,6 +208,7 @@ const projects = {
             ],
         },
         links: {
+            toShow: true,
             github: 'https://github.com/algomonk016/Parijana-Papers',
             live: 'https://parijana.herokuapp.com/college',
             playstore: 'https://github.com/algomonk016/Parijana-Papers',
