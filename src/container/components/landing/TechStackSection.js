@@ -10,7 +10,7 @@ const TechStackSection = () => {
 	return (
 		<div className='flex justify-around relative h-full'>
 			<div className='w-1/2 p-16 font-PlayFair flex items-center'>
-				<Technologies technologies={data} />
+				<Technologies technologies={data.technologies} />
 			</div>
 			<div className='w-1/2'>
 				<Image img={DeveloperCropped} />

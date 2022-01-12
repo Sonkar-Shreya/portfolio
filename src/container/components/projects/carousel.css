@@ -9,3 +9,9 @@
     justify-content: center;
     height: 400px;
 }
+
+.team-carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

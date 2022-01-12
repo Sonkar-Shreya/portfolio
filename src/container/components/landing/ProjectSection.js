@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import endpoints from '../../../utils/API/endpoints'
 import {
 	Carousel,
 	CarouselItem
@@ -14,7 +15,7 @@ const ProjectSection = () => {
 			image: 'https://qph.fs.quoracdn.net/main-qimg-51cd92ea2452947e4a0f67a51a37c527',
 			color: 'pink',
 			shape: 'circle',
-			link: ''
+			link: endpoints.slash+endpoints.project+endpoints.slash+endpoints.projects.kishori
 		},
 		{
 			name: 'Parijana',
@@ -23,7 +24,7 @@ const ProjectSection = () => {
 			image: 'https://qph.fs.quoracdn.net/main-qimg-51cd92ea2452947e4a0f67a51a37c527',
 			color: 'purple',
 			shape: 'square',
-			link: ''
+			link: endpoints.slash+endpoints.project+endpoints.slash+endpoints.projects.parijana
 		}
 	]
 	return (
@@ -33,7 +34,7 @@ const ProjectSection = () => {
 				<Carousel>
 					{
 						projects.map((project, key) => (
-							<CarouselItem>
+							<CarouselItem key={key}>
 								<div className={'relative flex items-center font-PlayFair h-full'}>
 									<div className={'absolute w-80 h-80 top-0 left-16 -z-50 bg-' + (project.color) + '-500 ' + (project.shape === 'circle' ? ' rounded-full' : '')} />
 									<div className={'text-md text-gray-700 relative top-0 -left-12 mb-10'}>
