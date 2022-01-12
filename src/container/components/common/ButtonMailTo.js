@@ -6,8 +6,8 @@ const ButtonMailto = ({ mailto, label }) => {
 		<Link
 			to='#'
 			onClick={(e) => {
-				window.location = mailto;
-				e.preventDefault();
+				e.preventDefault()
+				window.location = mailto
 			}}
 		>
 			{label}
