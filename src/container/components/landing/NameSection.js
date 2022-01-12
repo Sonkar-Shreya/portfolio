@@ -1,4 +1,5 @@
 import React, { createRef } from 'react'
+import { motion } from 'framer-motion'
 import {
 	LargeChar,
 	FullStop,
@@ -11,9 +12,30 @@ import {
 const NameSection = () => {
 	const singleLineClass = 'flex my-1 items-end ';
 
+	const nameSectionVariant = {
+		hidden: { 
+			opacity: 0,
+			scale: 0.1
+		},
+		show: { 
+			scale: 1,
+			opacity: 1,
+			// rotate: 360, 
+		},
+		
+	}
+	
 	return (
 		<div className='flex items-center h-full'>
-			<div className='w-3/5 flex justify-center flex-col h-full pl-20 relative overflow-hidden'>
+			<motion.div 
+				animate={'show'}
+				key={'somethingnew'}
+				variants={nameSectionVariant}
+				// transition={{ duration: 0.7 }}
+				// animate={{ rotate: 360 }}
+				transition={{ duration: 2 }}
+				className='w-3/5 flex justify-center flex-col h-full pl-20 relative overflow-hidden'
+			>
 				<div className={singleLineClass}>
 					<LargeChar char='H' />
 					<LargeChar char='i' />
@@ -70,7 +92,7 @@ const NameSection = () => {
 				<div className='w-24 my-8 z-10'>
 					<NavButton text='Contact Me' href='#contact' ref={createRef()} />
 				</div>
-			</div>
+			</motion.div>
 
 			<div className='w-2/5 flex justify-start'>
 				<img src={EnhancedHii} className='w-4/5' />

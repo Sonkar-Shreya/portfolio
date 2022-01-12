@@ -7,7 +7,11 @@ import {
     Snapshots,
     Team
 } from '../components'
-import { motion, useTransform, useViewportScroll } from 'framer-motion'
+import { 
+    motion, 
+    useTransform, 
+    useViewportScroll 
+} from 'framer-motion'
 
 const Project = () => {
     const { project } = useParams()
@@ -37,9 +41,7 @@ const Project = () => {
 
     const [ffLayer, setFfLayer] = useState(0)
     const { scrollYProgress } = useViewportScroll()
-    const scaleAnim = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1.2, 0.8])
-    const yPosAnim = useTransform(scrollYProgress, [0, 0.5, 1], [0, 100, 200])
-    const zRotAnim = useTransform(scrollYProgress, [0, 0.5, 1], [0, 3, 0])
+    const scaleAnim = useTransform(scrollYProgress, [0, 0.8, 1], [1, 1.2, 0.8])
 
     scrollYProgress.onChange(x => {
         setFfLayer(x > 0.4 ? -1 : 0)
