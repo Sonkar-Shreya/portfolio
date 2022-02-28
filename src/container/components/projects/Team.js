@@ -22,14 +22,14 @@ const Team = ({ className = '', teamMembers = [], color = 'red' }) => {
             <h2 className='text-2xl md:text-5xl font-Juana py-3 text-center pb-3'>Our Team</h2>
 
             <div className="pt-3 w-full">
-                <TeamCarousel>
+                <TeamCarousel width="4">
                    {
                        teamMembers.map((banda, index) => {
                            return (
-                            <TeamCarouselItem key={'teamMember_' + index++}>
+                            <TeamCarouselItem width={'4'} key={'teamMember_' + index++}>
                                 <div className="h-full grid grid-cols-2 w-full mx-3">
                                     {/* left side, image */}
-                                    <div className="h-full bg-red-400 w-60">
+                                    <div className="h-full bg-white w-60">
                                         <img className="object-cover h-full rounded-lg" src={banda.image} />
                                     </div>
 

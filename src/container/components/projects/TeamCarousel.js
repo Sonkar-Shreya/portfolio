@@ -4,7 +4,7 @@ import {
     ArrowIcons
 } from '../../../constants/icons'
 
-const TeamCarousel = ({ children }) => {
+const TeamCarousel = ({ children, width = '4' }) => {
     const [activeIndex, setActiveIndex] = useState(0)
     const childrenCount = React.Children.count(children)
 
@@ -16,7 +16,7 @@ const TeamCarousel = ({ children }) => {
     const iconsStyle = 'mt-5 flex w-12 h-12 p-3 items-center z-10 rounded-full bg-orange-100 mx-2 hover:bg-orange-300 cursor-pointer'
     return (
         <div className='w-full relative'>
-            <div className='w-4/12 mx-auto md:my-10'>
+            <div className={`w-${width}/12 mx-auto md:my-10`}>
                 <div className='inner' style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
                     {
                         React.Children.map(children, (child, index) => {

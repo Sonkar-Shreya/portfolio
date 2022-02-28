@@ -48,7 +48,7 @@ const Project = () => {
     })
 
     return (
-        <div className='font-PlayFair'>
+        <div className='font-PlayFair overflow-hidden'>
             {/* landing screen */}
             <motion.div
                 variants={projectPageVariant}
@@ -75,9 +75,9 @@ const Project = () => {
             {/* description screen */}
             <DescriptionPage color={color} projectDetails={projectDetails} />
 
-            {/* <Snapshots projectDetails = {projectDetails} /> */}
+            <Snapshots color={color} snapshots = {projectDetails.image.snapshots} />
 
-            <Team className=' ' teamMembers={teamMembers} color={color} />
+            <Team teamMembers={teamMembers} color={color} />
         </div>
     )
 }
