@@ -18,6 +18,9 @@ import {
     kishori2,
     kishori3,
     kishori4,
+    I6,
+    I7,
+    // I8,
 } from './images'
 
 const comingSoon = "coming soon..."
@@ -261,6 +264,21 @@ const projects = {
                     description: '',
                     image: I5,
                 },
+                {
+                    title: 'Page 5',
+                    description: '',
+                    image: I6,
+                },
+                {
+                    title: 'Page 5',
+                    description: '',
+                    image: I7,
+                },
+                // {
+                //     title: 'Page 5',
+                //     description: '',
+                //     image: I8,
+                // },
             ],
         },
         links: {
