@@ -5,6 +5,12 @@ import {
 	Carousel,
 	CarouselItem
 } from '../../components'
+import {
+	// kishori,
+	// kishoriImage,
+	// kishoriImage2,
+	kishoriImage3,
+} from '../../../constants/images'
 
 const ProjectSection = () => {
 	const projects = [
@@ -12,7 +18,8 @@ const ProjectSection = () => {
 			name: 'Kishori',
 			type: 'Website & Mobile App',
 			year: '2021-2022',
-			image: 'https://qph.fs.quoracdn.net/main-qimg-51cd92ea2452947e4a0f67a51a37c527',
+			image: kishoriImage3,
+			// image: 'https://qph.fs.quoracdn.net/main-qimg-51cd92ea2452947e4a0f67a51a37c527',
 			color: 'pink',
 			shape: 'circle',
 			link: endpoints.slash+endpoints.project+endpoints.slash+endpoints.projects.kishori

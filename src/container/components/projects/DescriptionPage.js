@@ -4,6 +4,13 @@ import { TechIcons } from '../../../constants/icons'
 const DescriptionPage = ({ color = 'gray', projectDetails = {} }) => {
     const linksClasses = 'mx-2 sm:mx-4 text-sm md:text-base'
 
+    const { github, live, playstore, ios } = projectDetails.links
+    const iosAppLink = 'iOS app link'
+    const androidAppLink = 'android app link'
+    const deployed = 'see in action'
+    const githubLink = 'see source code'
+    const comingSoon = 'coming soon'
+
     return (
         <div className='h-screen md:p-16 p-5 sm:mt-0 flex flex-col justify-around '>
             <div className='my-4 md:px-28'>
@@ -20,36 +27,39 @@ const DescriptionPage = ({ color = 'gray', projectDetails = {} }) => {
                 {/* links */}
                 <div className='md:mr-5 p-3'>
                     <h2 className='text-xl md:text-4xl font-Juana'>Links</h2>
-                    <div className='pt-2'>
-                        {
-                            projectDetails.links.github &&
-                            <a href={projectDetails.links.github} className='flex items-center'>
-                                <TechIcons.GitIcon />
-                                <span className={linksClasses}> See source code </span>
-                            </a>
-                        }
-                        {
-                            projectDetails.links.live &&
-                            <a href={projectDetails.links.live} className='flex items-center'>
-                                <TechIcons.Deploy />
-                                <span className={linksClasses}> See in action </span>
-                            </a>
-                        }
-                        {
-                            projectDetails.links.playstore &&
-                            <a href={projectDetails.links.playstore} className='flex items-center pl-2'>
-                                <TechIcons.PlayStore />
-                                <span className={linksClasses}> Playstore link </span>
-                            </a>
-                        }
-                        {
-                            projectDetails.links.ios &&
-                            <a href={projectDetails.links.ios} className='flex items-center'>
-                                <TechIcons.IOS />
-                                <span className={linksClasses}> Apple Store link </span>
-                            </a>
-                        }
-                    </div>
+                    {
+                        <div className='pt-2'>
+                            {
+                                // github &&
+                                <a href={github ? github : ''} className='flex items-center'>
+                                    <TechIcons.GitIcon />
+                                    <span className={linksClasses}> {github ? githubLink : comingSoon} </span>
+                                </a>
+                            }
+                            {
+                                // live &&
+                                <a href={live ? live : ''} className='flex items-center'>
+                                    <TechIcons.Deploy />
+                                    <span className={linksClasses}> {live ? deployed : comingSoon} </span>
+                                </a>
+                            }
+                            {
+                                // playstore &&
+                                <a href={playstore ? playstore : ''} className='flex items-center pl-2'>
+                                    <TechIcons.PlayStore />
+                                    <span className={linksClasses}> {playstore ? androidAppLink : comingSoon} </span>
+                                </a>
+                            }
+                            {
+                                // ios &&
+                                <a href={ios ? ios : ''} className='flex items-center'>
+                                    <TechIcons.IOS />
+                                    <span className={linksClasses}> { ios ? iosAppLink : comingSoon } </span>
+                                </a>
+                            }
+                        </div>
+                    }
+
                 </div>
                 {/* tech used */}
                 <div className='md:ml-5 md:p-3 p-1'>
