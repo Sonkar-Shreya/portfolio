@@ -26,7 +26,7 @@ const Team = ({ className = '', teamMembers = [], color = 'red' }) => {
                    {
                        teamMembers.map((banda, index) => {
                            return (
-                            <TeamCarouselItem width={'4'} key={'teamMember_' + index++}>
+                            <TeamCarouselItem key={'teamMember_' + index++}>
                                 <div className="h-full grid grid-cols-2 w-full mx-3">
                                     {/* left side, image */}
                                     <div className="h-full bg-white w-60">

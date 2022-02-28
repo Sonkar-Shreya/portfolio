@@ -3,6 +3,7 @@ import {
     TeamCarousel,
     TeamCarouselItem
 } from "../";
+import SnapshotCarousel from "./SnapshotCarousel";
 const Snapshots = ({ color = 'gray', snapshots = [] }) => {
     console.log('snapshots', snapshots)
     return (
@@ -11,7 +12,7 @@ const Snapshots = ({ color = 'gray', snapshots = [] }) => {
                 <h2 className='text-2xl md:text-5xl font-Juana py-3'> Snapshots </h2>
             </div>
             <div className="w-full lg:pt-16">
-                <TeamCarousel width={'7'}>
+                <SnapshotCarousel>
                     {
                         snapshots.map((img, ind = 0) => (
                             <TeamCarouselItem key={'image_snapshot_' + ind} width='1000' height={96} >
@@ -21,7 +22,7 @@ const Snapshots = ({ color = 'gray', snapshots = [] }) => {
                             </TeamCarouselItem>
                         ))
                     }
-                </TeamCarousel>
+                </SnapshotCarousel>
             </div>
         </div>
     )
