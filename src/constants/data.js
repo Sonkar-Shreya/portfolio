@@ -2,6 +2,26 @@ import {
     TechIcons
 } from './icons'
 
+import {
+    I1,
+    I2,
+    I3,
+    I4,
+    I5,
+    kishori,
+    shreyaSonkar,
+    shivani,
+    vibhu,
+    dheeraj,
+    yaman,
+    kishori1,
+    kishori2,
+    kishori3,
+    kishori4,
+} from './images'
+
+const comingSoon = "coming soon..."
+
 const technologies = {
     Javascript: [
         { 
@@ -94,16 +114,31 @@ const projects = {
         image: {
             banner: '',
             snapshots: [
+                // {
+                //     title: '',
+                //     description: '',
+                //     image: kishori4
+                // },
                 {
                     title: '',
                     description: '',
-                    image: ''
-                }
+                    image: kishori1
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: kishori2
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: kishori3
+                },
             ],
         },
         links: {
             github: '',
-            live: 'https://kishori-b1410.web.app/',
+            live: '',
             playstore: '',
             ios: '',
         },
@@ -122,7 +157,7 @@ const projects = {
                 }
             },
             {
-                name: 'Suryansh Pratap Singh',
+                name: 'Suryansh Singh',
                 image: 'https://media-exp1.licdn.com/dms/image/C4E03AQFtb2Eo6aLvNA/profile-displayphoto-shrink_400_400/0/1634583648391?e=1647475200&v=beta&t=77GYMHcFD55sibo_EdXZMIQu-6sparbuI9Xizvz8Hqc',
                 role: 'Tech lead',
                 links: {
@@ -132,7 +167,7 @@ const projects = {
             },
             {
                 name: 'Yaman Kain',
-                image: '',
+                image: yaman,
                 role: 'UI Designer',
                 links: {
                     linkedIn: 'https://www.linkedin.com/in/yaman-kain-256a19166/',
@@ -141,7 +176,7 @@ const projects = {
             },
             {
                 name: 'Vibhanshu Pandey',
-                image: 'https://media-exp1.licdn.com/dms/image/C4D03AQGSebfCa8sVnQ/profile-displayphoto-shrink_400_400/0/1631733443923?e=1647475200&v=beta&t=84G0XxEKNGZ8naldvh5vwciFhtjhRhHtjaeoMEw1pas',
+                image: vibhu,
                 role: 'developer',
                 links: {
                     linkedIn: 'https://www.linkedin.com/in/vibhanshu-pandey-7a35b11b4/',
@@ -150,7 +185,7 @@ const projects = {
             },
             {
                 name: 'Dheeraj Pandey',
-                image: 'https://media-exp1.licdn.com/dms/image/C5603AQFnHPM3qyJ8PQ/profile-displayphoto-shrink_400_400/0/1641497580735?e=1647475200&v=beta&t=DZ-c_Tadh6crCF-hVxV1PZZWaqx39XDPocp4QcmnJTI',
+                image: dheeraj,
                 role: 'developer',
                 links: {
                     linkedIn: 'https://www.linkedin.com/in/dheerajpandey1/',
@@ -159,7 +194,8 @@ const projects = {
             },
             {
                 name: 'Shivani Chaudhray',
-                image: 'https://media-exp1.licdn.com/dms/image/C5603AQGlX6yA2Bfrdw/profile-displayphoto-shrink_400_400/0/1626727904713?e=1647475200&v=beta&t=P8qaKCndAdQU9OFKAGoxFCS5Z7dx3tB-WApq1yv8GKQ',
+                // image: 'https://media-exp1.licdn.com/dms/image/C5603AQGlX6yA2Bfrdw/profile-displayphoto-shrink_400_400/0/1626727904713?e=1647475200&v=beta&t=P8qaKCndAdQU9OFKAGoxFCS5Z7dx3tB-WApq1yv8GKQ',
+                image: shivani,
                 role: 'developer',
                 links: {
                     linkedIn: 'https://www.linkedin.com/in/shivani-chaudhary-3a15301b4/',   
@@ -198,21 +234,40 @@ const projects = {
         title: 'Parijana Papers',
         techUsed: ['React', 'React Native', 'Redux', 'NodeJs + ExpressJS', 'MySQL'],
         image: {
-            banner: '',
+            banner: kishori,
             snapshots: [
                 {
-                    title: '',
+                    title: 'Landing Page',
                     description: '',
-                    image: ''
-                }
+                    image: I1,
+                },
+                {
+                    title: 'Page 2',
+                    description: '',
+                    image: I2,
+                },
+                {
+                    title: 'Page 3',
+                    description: '',
+                    image: I3,
+                },
+                {
+                    title: 'Page 4',
+                    description: '',
+                    image: I4,
+                },
+                {
+                    title: 'Page 5',
+                    description: '',
+                    image: I5,
+                },
             ],
         },
         links: {
-            toShow: true,
             github: 'https://github.com/algomonk016/Parijana-Papers',
             live: 'https://parijana.herokuapp.com/college',
-            playstore: 'https://github.com/algomonk016/Parijana-Papers',
-            ios: 'https://github.com/algomonk016/Parijana-Papers'
+            playstore: '',
+            ios: '',
         },
         style: {
             color: 'purple',
@@ -221,7 +276,7 @@ const projects = {
         team: [
             {
                 name: 'Shreya Sonkar',
-                image: 'https://media-exp1.licdn.com/dms/image/C4E03AQEb2i1nH7XDyA/profile-displayphoto-shrink_400_400/0/1611202470269?e=1647475200&v=beta&t=_S95-P7fmEbiZv3pmMBYQH5atnnCjPrLiF9-uRVkV7U',
+                image: shreyaSonkar,
                 role: 'backend developer',
                 links: {
                     linkedIn: 'https://www.linkedin.com/in/shreya-sonkar-0476891a5/',
