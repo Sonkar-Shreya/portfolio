@@ -8,16 +8,19 @@ import {
     I3,
     I4,
     I5,
-    kishori,
+    
     shreyaSonkar,
-    shivani,
-    vibhu,
-    dheeraj,
-    yaman,
-    kishori1,
-    kishori2,
-    kishori3,
-    kishori4,
+    g1,
+    g2,
+    g3,
+    g4,
+    g5,
+    g6,
+    g7,
+    g8,
+    g9,
+    g10,
+    g11,
     I6,
     I7,
     // I8,
@@ -32,11 +35,11 @@ const technologies = {
             icon: TechIcons.ReactNativeIcon,
             hoverShadow: 'sky'
         },
-        { 
-            title: 'React Native', 
-            icon: TechIcons.ReactNativeIcon,
-            hoverShadow: 'sky'
-        },
+        // { 
+        //     title: 'React Native', 
+        //     icon: TechIcons.ReactNativeIcon,
+        //     hoverShadow: 'sky'
+        // },
         { 
             title: '', 
             icon: TechIcons.NodeIcon,
@@ -59,11 +62,11 @@ const technologies = {
             icon: TechIcons.MongoDBIcon,
             hoverShadow: 'green'
         },
-        { 
-            title: 'Firebase', 
-            icon: TechIcons.FirebaseIcon,
-            hoverShadow: 'yellow'
-        }
+        // { 
+        //     title: 'Firebase', 
+        //     icon: TechIcons.FirebaseIcon,
+        //     hoverShadow: 'yellow'
+        // }
     ],
     Styling: [
         // { title: 'CSS', icon: TechIcons.CSSIcon },
@@ -77,16 +80,16 @@ const technologies = {
             icon: TechIcons.BootstrapIcon,
             hoverShadow: 'purple'
         },
-        { 
-            title: 'MaterialUI', 
-            icon: TechIcons.MaterialUIIcon,
-            hoverShadow: 'sky'
-        },
-        { 
-            title: 'ReactStrap', 
-            icon: TechIcons.ReactStrapIcon,
-            hoverShadow: 'purple'
-        }
+        // { 
+        //     title: 'MaterialUI', 
+        //     icon: TechIcons.MaterialUIIcon,
+        //     hoverShadow: 'sky'
+        // },
+        // { 
+        //     title: 'ReactStrap', 
+        //     icon: TechIcons.ReactStrapIcon,
+        //     hoverShadow: 'purple'
+        // }
     ],
     Others: [
         { 
@@ -108,12 +111,12 @@ const technologies = {
 }
 
 const projects = {
-    kishori: {
-        about: 'Pratham, Prabal, Sarvada',
-        appType: 'Web & Mobile App',
-        description:"Kishori is an app build for females for their good health and well-being. Using this app they can raise physical as well as mental health related issues and directly contact any doctor for their issue. More than this, Kishori app is a one-stop shop for women of all ages to discover resources, guidance, information, and support through each stage in life.",
-        title: 'Kishori',
-        techUsed: ['Java', 'React', 'React Native', 'Redux', 'Firebase'],
+    guestTracker: {
+        about: 'Baad m likh dege',
+        appType: 'Web App',
+        description:"to track the guest activities in hotel",
+        title: 'Hospitality Management',
+        techUsed: ['React', 'Redux', 'MySQL'],
         image: {
             banner: '',
             snapshots: [
@@ -125,105 +128,91 @@ const projects = {
                 {
                     title: '',
                     description: '',
-                    image: kishori1
+                    image: g1
                 },
                 {
                     title: '',
                     description: '',
-                    image: kishori2
+                    image: g2
                 },
                 {
                     title: '',
                     description: '',
-                    image: kishori3
+                    image: g3
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g4
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g5
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g6
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g7
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g8
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g9
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g10
+                },
+                {
+                    title: '',
+                    description: '',
+                    image: g11
                 },
             ],
         },
         links: {
-            github: '',
-            live: '',
-            playstore: '',
-            ios: '',
+            github: 'https://github.com/Sonkar-Shreya/client-guest-tracker-hospitality-mngmt',
+            // live: '',
+            // playstore: '',
+            // ios: '',
         },
         style: {
-            color: 'pink',
+            color: 'purple',
             shape: 'circle',
         },
         team: [
             {
-                name: 'Akash Madhesiya',
-                image: 'https://media-exp1.licdn.com/dms/image/C4E03AQEVq0VTGNP8kw/profile-displayphoto-shrink_400_400/0/1638378796601?e=1647475200&v=beta&t=St3Zvx9IozKex69LabTjU79jOPe_ag1DQbruEizJPts',
-                role: 'Developer Lead',
+                name: 'Shreya Sonkar',
+                image: shreyaSonkar,
+                role: 'backend developer',
                 links: {
-                    linkedIn: 'https://www.linkedin.com/in/akash-madheshiya-7741111a3/',
-                    github: 'https://github.com/semiexp07',
-                }
-            },
-            {
-                name: 'Suryansh Singh',
-                image: 'https://media-exp1.licdn.com/dms/image/C4E03AQFtb2Eo6aLvNA/profile-displayphoto-shrink_400_400/0/1634583648391?e=1647475200&v=beta&t=77GYMHcFD55sibo_EdXZMIQu-6sparbuI9Xizvz8Hqc',
-                role: 'Tech lead',
-                links: {
-                    linkedIn: 'https://www.linkedin.com/in/suryanshpratapsingh-72659a195/',
-                    github: 'https://github.com/Suryansh26',
-                }
-            },
-            {
-                name: 'Yaman Kain',
-                image: yaman,
-                role: 'UI Designer',
-                links: {
-                    linkedIn: 'https://www.linkedin.com/in/yaman-kain-256a19166/',
-                    github: '',
-                }
-            },
-            {
-                name: 'Vibhanshu Pandey',
-                image: vibhu,
-                role: 'developer',
-                links: {
-                    linkedIn: 'https://www.linkedin.com/in/vibhanshu-pandey-7a35b11b4/',
-                    github: 'https://github.com/ivibhu05',
-                }
-            },
-            {
-                name: 'Dheeraj Pandey',
-                image: dheeraj,
-                role: 'developer',
-                links: {
-                    linkedIn: 'https://www.linkedin.com/in/dheerajpandey1/',
-                    github: 'https://github.com/dcpandey1',
-                }
-            },
-            {
-                name: 'Shivani Chaudhray',
-                // image: 'https://media-exp1.licdn.com/dms/image/C5603AQGlX6yA2Bfrdw/profile-displayphoto-shrink_400_400/0/1626727904713?e=1647475200&v=beta&t=P8qaKCndAdQU9OFKAGoxFCS5Z7dx3tB-WApq1yv8GKQ',
-                image: shivani,
-                role: 'developer',
-                links: {
-                    linkedIn: 'https://www.linkedin.com/in/shivani-chaudhary-3a15301b4/',   
-                    github: 'https://github.com/Shivaniii26',
-                }
-            },
-            {
-                name: 'Noor Siddique',
-                image: 'https://media-exp1.licdn.com/dms/image/C4D03AQGArf9zxEKzpg/profile-displayphoto-shrink_800_800/0/1627932267572?e=1647475200&v=beta&t=pPzAumYCnFUYxfv9j4_t5DeWCllYEvoFWSwvkDV_da8',
-                role: 'developer',
-                links: {
-                    linkedIn: 'https://www.linkedin.com/in/noor-siddiqui/',
-                    github: '',
+                    linkedIn: 'https://www.linkedin.com/in/shreya-sonkar-0476891a5/',
+                    github: 'https://github.com/Sonkar-Shreya',
                 }
             },
             {
                 name: 'Shivesh Tiwari',
                 image: 'https://media-exp1.licdn.com/dms/image/C5603AQGgYJXBPQ0DWg/profile-displayphoto-shrink_400_400/0/1621507333133?e=1647475200&v=beta&t=t7_iC0vRNIgnz99dultQKNCXQVUrrhIDUokevBzg2dU',
-                role: 'developer',
+                role: 'frontend developer',
                 links: {
                     linkedIn: 'https://www.linkedin.com/in/shivesh-tiwari-21bbb0190/',
                     github: 'https://github.com/algomonk016',
                 }
             },
         ],
+       
         timeline: {
             start: '2021',
             end: '',
@@ -231,13 +220,13 @@ const projects = {
         },
     },
     parijana: {
-        about: 'something will be here',
+        about: 'Everything will be here',
         appType: 'Web & Mobile App',
         description:"Parijana-Papers is a website that contains previous year papers of Chhatrapati Shahu Ji Maharaj University, Kanpur. Due to lockdown period, the interaction between the college-mates has reduced to a large extinct due to which sharing of important notes and previous year papers has also reduced. Most of the studen don't get the papers. So to resolve that problem, this website is developed. It contains all the previous year papers for the students so that they can easily get those papers.",
         title: 'Parijana Papers',
         techUsed: ['React', 'React Native', 'Redux', 'NodeJs + ExpressJS', 'MySQL'],
         image: {
-            banner: kishori,
+            //banner: ,
             snapshots: [
                 {
                     title: 'Landing Page',
