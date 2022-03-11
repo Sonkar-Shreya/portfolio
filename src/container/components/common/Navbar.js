@@ -13,7 +13,6 @@ const Navbar = ({active = 2}) => {
 			<NavButton href="#home" ref={createRef()} text = 'Home' />
 			<NavButton href="#skills" ref={createRef()} text = 'Skills' />
 			<NavButton href="#projects" ref={createRef()} text = 'Projects' />
-			<NavButton href="#whatElse" ref={createRef()} text = 'Thinks I Like' />
 			<NavButton href="#contact" ref={createRef()} text = 'Contact' />
 		</div>
 	)

@@ -49,17 +49,17 @@ const NameSection = () => {
 					<LargeChar char='m' />
 					<LargeChar char='S' space />
 					<LargeChar char='h' />
-					<LargeChar char='i' />
-					<LargeChar char='v' />
+					<LargeChar char='r' />
 					<LargeChar char='e' />
-					<LargeChar char='s' />
-					<LargeChar char='h' />
-					<LargeChar char='T' space />
-					<LargeChar char='i' />
-					<LargeChar char='w' />
+					<LargeChar char='y' />
+					<LargeChar char='a' />
+					{/* <LargeChar char='S' /> */}
+					<LargeChar char='S' space />
+					<LargeChar char='o' />
+					<LargeChar char='n' />
+					<LargeChar char='k' />
 					<LargeChar char='a' />
 					<LargeChar char='r' />
-					<LargeChar char='i' />
 					<LargeChar char=',' />
 				</div>
 
@@ -72,19 +72,20 @@ const NameSection = () => {
 					<LargeChar char='a' />
 					<LargeChar char='r' />
 					<LargeChar char='e' />
-					<LargeChar char='E' space />
-					<LargeChar char='n' />
-					<LargeChar char='g' />
-					<LargeChar char='i' />
-					<LargeChar char='n' />
+					<LargeChar char='D' space />
 					<LargeChar char='e' />
+					<LargeChar char='v' />
+					<LargeChar char='e' />
+					<LargeChar char='l' />
+					<LargeChar char='o' />
+					<LargeChar char='p' />
 					<LargeChar char='e' />
 					<LargeChar char='r' />
 					<FullStop classes=' mb-3' size={2} />
 				</div>
 
 				<div className='text-gray-800 py-5 text-xl font-Juana z-10 hoverable cursor-pointer'>
-					<span> Full Stack Engineer </span>
+					<span> Backend Developer </span>
 					<span>&#127911;</span>
 					<span> Competitive Programmer </span>
 				</div>

@@ -1,4 +1,5 @@
 const endpoints = {
+    home: '/portfolio',
     slash: '/',
     login: "login",
     signOut: "signout",
@@ -8,7 +9,7 @@ const endpoints = {
     stats: 'stats',
     notice: 'notice',
     projects: {
-        kishori: 'kishori',
+        guestTracker: 'guestTracker',
         parijana: 'parijana'
     }
 }

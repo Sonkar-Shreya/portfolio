@@ -16,7 +16,7 @@ function PageRoutes() {
   return (
     <AnimatePresence exitBeforeEnter initial={false}>
       <Routes location={location} key={location.pathname} >
-        <Route path={endpoints.slash} element={<Landing />} />
+        <Route path={endpoints.home} element={<Landing />} />
         <Route path={endpoints.project + '/:project'} element={<Project />} />
       </Routes>
     </AnimatePresence>
