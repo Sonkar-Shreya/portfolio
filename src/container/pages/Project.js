@@ -64,7 +64,7 @@ const Project = () => {
 
                 className={'h-screen flex flex-col relative items-center justify-center font-PlayFair tracking-wider text-gray-50 bg-' + color + '-500'}>
                 <nav className='absolute top-5 left-5  md:top-10 md:left-10 md:w-24 p-0'>
-                    <Link to={endpoints.slash} className='px-2 py-1 rounded-full md:px-3 md:py-2 border text-white font-bold tracking-widest shadow-sm shadow-gray-50 hover:shadow-white hover:shadow-md duration-300 easeInOut' >
+                    <Link to={endpoints.slash + endpoints.home} className='px-2 py-1 rounded-full md:px-3 md:py-2 border text-white font-bold tracking-widest shadow-sm shadow-gray-50 hover:shadow-white hover:shadow-md duration-300 easeInOut' >
                         Back
                     </Link>
                 </nav>

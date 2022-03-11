@@ -22,7 +22,7 @@ const ProjectSection = () => {
 			image: 'https://qph.fs.quoracdn.net/main-qimg-51cd92ea2452947e4a0f67a51a37c527',
 			color: 'pink',
 			shape: 'circle',
-			link: endpoints.slash+endpoints.project+endpoints.slash+endpoints.projects.guestTracker
+			link: endpoints.slash + endpoints.home + endpoints.slash + endpoints.project+endpoints.slash+endpoints.projects.guestTracker
 		},
 		{
 			name: ['Parijana'],
@@ -31,7 +31,7 @@ const ProjectSection = () => {
 			image: 'https://qph.fs.quoracdn.net/main-qimg-51cd92ea2452947e4a0f67a51a37c527',
 			color: 'purple',
 			shape: 'square',
-			link: endpoints.slash+endpoints.project+endpoints.slash+endpoints.projects.parijana
+			link: endpoints.slash + endpoints.home + endpoints.slash + endpoints.project+endpoints.slash+endpoints.projects.parijana
 		}
 	]
 	return (

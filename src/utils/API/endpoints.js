@@ -1,5 +1,5 @@
 const endpoints = {
-    home: '/portfolio',
+    home: 'portfolio',
     slash: '/',
     login: "login",
     signOut: "signout",
